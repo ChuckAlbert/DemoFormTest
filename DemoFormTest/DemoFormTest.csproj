@@ -143,6 +143,7 @@
   <ItemGroup>
     <Compile Include="Data\DemoContext.cs" />
     <Compile Include="Data\Entities\Department.cs" />
+    <Compile Include="Data\Entities\Teams.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +157,10 @@
     <Compile Include="Migrations\20200509073303_UpdateDepartment.cs" />
     <Compile Include="Migrations\20200509073303_UpdateDepartment.designer.cs">
       <DependentUpon>20200509073303_UpdateDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20200511011609_Teams.cs" />
+    <Compile Include="Migrations\20200511011609_Teams.designer.cs">
+      <DependentUpon>20200511011609_Teams.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DemoContextModelSnapshot.cs" />
     <Compile Include="Program.cs" />

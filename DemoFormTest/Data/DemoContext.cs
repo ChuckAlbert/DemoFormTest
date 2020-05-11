@@ -20,5 +20,7 @@ namespace DemoFormTest.Data
         }
 
         public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Teams> Teams { get; set; }
     }
 }
